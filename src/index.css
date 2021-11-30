@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn {
+  background-color: rebeccapurple;
+  color: red;
+  width: fit-content;
+  height: 50px;
+}
