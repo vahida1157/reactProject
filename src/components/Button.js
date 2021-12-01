@@ -1,14 +1,10 @@
-import React from 'react'
-
-class Button extends React.Component {
-    render() {
-        return (
-            <div>
-                <h1>salam</h1>
-                <input value='salam' type='button' className='btn'/>
-            </div>
-        );
-    }
+const Button = ({text, onClick}) => {
+    return (
+        <>
+            <button type={"button"} value={text} onClick={onClick} className={'btn'}
+                    style={{'margin': '20px'}}>{text}</button>
+        </>
+    )
 }
 
 export default Button
